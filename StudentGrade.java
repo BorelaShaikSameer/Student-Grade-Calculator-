@@ -41,10 +41,10 @@ class Student {
       }
   }
   public void displayResult() {
-	  System.out.println("name "+ name);
-	  System.out.println("Total "+ calculateTotal());
-	  System.out.println("average "+calculateAvg());
-	  System.out.println("Grade "+Grade());
+	  System.out.println("name: "+ name);
+	  System.out.println("Total: "+ calculateTotal());
+	  System.out.println("average: "+calculateAvg());
+	  System.out.println("Grade: "+Grade());
   }
 }
 public class StudentGrade{
